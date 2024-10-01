@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al menú principal"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/et_monto_compra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa el monto de la compra"
+        android:inputType="number"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btn_calcular_despacho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular costo de despacho"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_resultado_despacho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+</LinearLayout>
